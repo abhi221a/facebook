@@ -199,3 +199,107 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1623426667084	geckodriver	INFO	Listening on 127.0.0.1:53023
+1623426668092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoZVyWg"
+1623426670065	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoZVyWg/search.json.mozlz4", (void 0)))
+1623426673626	Marionette	INFO	Listening on port 45953
+1623426673658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623426678540	geckodriver	INFO	Listening on 127.0.0.1:41271
+1623426678547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCeRwt9"
+1623426680582	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCeRwt9/search.json.mozlz4", (void 0)))
+1623426684454	Marionette	INFO	Listening on port 37851
+1623426684683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623426697513	Marionette	INFO	Stopped listening on port 37851
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://static.xx.fbcdn.net/rsrc.php/v3/yA/l/0,cross/m3BaX9gVePL.css?_nc_x=Ij3Wp8lg5Kz without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://static.xx.fbcdn.net/rsrc.php/v3/yG/l/0,cross/Vmov9N9iyG2.css?_nc_x=Ij3Wp8lg5Kz without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://static.xx.fbcdn.net/rsrc.php/v3/yS/l/0,cross/rqYclURIYJR.css?_nc_x=Ij3Wp8lg5Kz without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://static.xx.fbcdn.net/rsrc.php/v3/yQ/l/0,cross/7n9M8qSDX7b.css?_nc_x=Ij3Wp8lg5Kz without a browsingContextID set
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle25 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1623426911505	geckodriver	INFO	Listening on 127.0.0.1:39657
+1623426912516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWZns4q"
+1623426914404	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWZns4q/search.json.mozlz4", (void 0)))
+1623426917912	Marionette	INFO	Listening on port 46343
+1623426917979	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623426922071	geckodriver	INFO	Listening on 127.0.0.1:38121
+1623426922111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePD4mpm"
+1623426924562	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePD4mpm/search.json.mozlz4", (void 0)))
+1623426928597	Marionette	INFO	Listening on port 46251
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+1623426929008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/driver.js, line 2346: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://activity-stream/lib/PersistentCache.jsm, line 93: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2536\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: chrome://marionette/content/driver.js, line 2346: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1623426931363	Marionette	INFO	Stopped listening on port 46251
+1623426931697	Marionette	INFO	Stopped listening on port 46343
+JavaScript error: resource:///modules/EveryWindow.jsm, line 37: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+ExceptionHandler::GenerateDump cloned child 6550
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+1623428327229	geckodriver	INFO	Listening on 127.0.0.1:59487
+1623428328235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqkG7TO"
+1623428330435	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqkG7TO/search.json.mozlz4", (void 0)))
+1623428334052	Marionette	INFO	Listening on port 43899
+1623428334113	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623428339016	geckodriver	INFO	Listening on 127.0.0.1:44951
+1623428339022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTMvikk"
+1623428340827	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTMvikk/search.json.mozlz4", (void 0)))
+1623428344375	Marionette	INFO	Listening on port 33383
+1623428344863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623428457250	geckodriver	INFO	Listening on 127.0.0.1:35899
+1623428457257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9RLOBi"
+1623428459167	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9RLOBi/search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/UrlbarInput.jsm, line 2952: TypeError: event.target.closest is not a function
+1623428463092	Marionette	INFO	Listening on port 35413
+1623428463209	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623428467657	Marionette	INFO	Stopped listening on port 35413
+1623428468012	Marionette	INFO	Stopped listening on port 33383
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623428468979	geckodriver	INFO	Listening on 127.0.0.1:38321
+1623428468989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEtJqX6"
+1623428470720	Marionette	INFO	Marionette enabled
+1623428472190	Marionette	INFO	Stopped listening on port 43899
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEtJqX6/search.json.mozlz4", (void 0)))
+1623428474567	Marionette	INFO	Listening on port 35191
+1623428475029	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623428481476	Marionette	INFO	Stopped listening on port 35191
