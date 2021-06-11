@@ -17,13 +17,14 @@ import json
 
 searchUser=['Himadri sarmah']
 users=[     'abhinava.goswami.35']
-Output=[]
+
 path1=['https://m.facebook.com/iamSagardeepTalukdar/posts/3320023114720980','https://m.facebook.com/himantabiswasarma/posts/10158560131803983']
 i=0
 t=1
 A=1
 
 for path in path1:
+    Output=[]
     postText =[]
     comments=[]
     browser = webdriver.Firefox(executable_path='/opt/WebDriver/bin/geckodriver')
@@ -32,7 +33,7 @@ for path in path1:
     pt=soup1.find("div",{"class":"_5rgt _5nk5"}).text
     postText.append(pt)
     Output.append("Post Text")
-    Output.appent(postText)
+    Output.append(postText)
     try:
         loadMore=browser.find_element_by_class_name("_108_")
         
@@ -46,10 +47,10 @@ for path in path1:
         comments.append(i.text)
     
     Output.append("Comments")
-    Output.appent(comments)
-    A+=1
+    Output.append(comments)
     
-df=pd.DataFrame(Output)
-with open("/home/abhi/Desktop/"+A, "w") as json_file:
+    df=pd.DataFrame(Output)
+    with open("/home/abhi/Desktop/"+str(A), "w") as json_file:
         json.dump(Output, json_file)
-browser.quit()
+    browser.quit()
+    A+=1
