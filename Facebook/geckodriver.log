@@ -122,3 +122,15 @@ JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: 
 1623245961580	Marionette	INFO	Stopped listening on port 39791
 1623245963607	Marionette	INFO	Stopped listening on port 43479
 1623246067280	Marionette	INFO	Stopped listening on port 38459
+1623425717677	geckodriver	INFO	Listening on 127.0.0.1:53583
+1623425717684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileehWh7D"
+1623425719541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileehWh7D/search.json.mozlz4", (void 0)))
+1623425722936	Marionette	INFO	Listening on port 41187
+1623425723032	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623425729352	geckodriver	INFO	Listening on 127.0.0.1:35935
+1623425729363	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJS9Vrb"
+1623425731484	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJS9Vrb/search.json.mozlz4", (void 0)))
+1623425735285	Marionette	INFO	Listening on port 43695
+1623425735678	Marionette	WARN	TLS certificate errors will be ignored for this session
