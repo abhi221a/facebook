@@ -9,13 +9,11 @@ Created on Sat Jun  5 15:11:32 2021
 from selenium import webdriver
 
 from bs4 import BeautifulSoup
-import  datetime
-from datetime import timedelta
+
 import pandas as pd
-import time
+
 import json
-from selenium.webdriver.common.keys import Keys
-import re
+
 
 searchUser=['Himadri sarmah']
 users=[     'abhinava.goswami.35']
